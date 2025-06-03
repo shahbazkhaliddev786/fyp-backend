@@ -1,0 +1,24 @@
+# FastAPI
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy>=1.4
+asyncpg
+
+# Authentication
+passlib[bcrypt]
+python-jose[cryptography]
+
+# ML / Data
+numpy==1.23.5
+pandas==2.0.3
+scikit-learn==1.2.2
+torch
+
+# Other utilities
+requests
+python-dotenv
+
+# Fix for pyasn1 conflict (optional but safe)
+pyasn1>=0.6.1,<0.7.0
